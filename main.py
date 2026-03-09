@@ -101,4 +101,5 @@ def get_hours(message):
 if __name__ == "__main__":
     threading.Thread(target=run_health_check, daemon=True).start()
     print("Bot ishga tushdi...")
+
     bot.infinity_polling()
